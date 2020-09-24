@@ -59,23 +59,7 @@ class ChartComponent extends Component {
 
         return {
             labels: ['Average', 'Ratings', 'Services', 'Total'],
-            datasets: vehicleInfo/*[
-                {
-                    label: 'Honda',
-                    backgroundColor: 'rgba(179,181,198,0.2)',
-                    borderColor: 'rgba(179,181,198,1)',
-                    pointBackgroundColor: 'rgba(179,181,198,1)',
-                    pointBorderColor: '#fff',
-                    pointHoverBackgroundColor: '#fff',
-                    pointHoverBorderColor: 'rgba(179,181,198,1)',
-                    data: [50, 5, 2, 3]
-                },
-                {
-                    label: 'Suzuki',
-                    
-                    data: [45, 4, 2, 5]
-                }
-            ]*/
+            datasets: vehicleInfo
         }
     }
     vehi = () => {
